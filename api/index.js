@@ -14,9 +14,10 @@ app.use("/auth", authRoutes);
 app.use("/files", fileRoutes);
 
 app.get("/", (req, res) => {
-  res.send("API IS RUNNING :) ");
+  res.send("StudyGeni IS RUNNING :) ");
 });
 
 app.listen(PORT, () => {
   console.log(`Server running on Port ${PORT}`);
 });
+
