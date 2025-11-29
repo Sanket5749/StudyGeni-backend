@@ -14,11 +14,12 @@ app.use("/auth", authRoutes);
 app.use("/files", fileRoutes);
 
 app.get("/", (req, res) => {
-  res.send("StudyGeni is Running");
+  res.send("StudyGeni is Running...");
 });
 
 app.listen(PORT, () => {
   console.log(`Server running on Port ${PORT}`);
 });
+
 
 
